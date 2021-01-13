@@ -1,0 +1,15 @@
+ifdef::context[:parent-context-of-api_reference: {context}]
+
+
+ifndef::context[]
+[id="ref_api-reference"]
+endif::[]
+ifdef::context[]
+[id="ref_api-reference"]
+endif::[]
+= API Reference
+
+:context: ref_api-reference
+
+* xref:api-reference-stable.adoc[]
+* xref:api-reference-nightly.adoc[]

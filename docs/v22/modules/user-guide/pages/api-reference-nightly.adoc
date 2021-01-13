@@ -1,0 +1,6 @@
+:description: API reference for v2.2.0-alpha nightly
+:navtitle: v2.2.0-alpha nightly
+:keywords: devfile, api, reference
+:page-aliases: _attachments:api-reference-nightly, .:api_reference-nightly, .:api_reference-nightly.html
+
+include::partial$ref_api-reference-nightly.adoc[]

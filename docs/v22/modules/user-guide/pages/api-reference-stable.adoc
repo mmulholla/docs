@@ -1,0 +1,6 @@
+:description: API reference for v2.2.0-aplha stable
+:navtitle: v2.2.0-aplha stable
+:keywords: devfile, api, reference
+:page-aliases: _attachments:api-reference-stable, .:api_reference-table, .:api_reference-stable.html
+
+include::partial$ref_api-reference-stable.adoc[]

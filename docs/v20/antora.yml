@@ -3,5 +3,5 @@ name: devfile
 nav:
   - modules/user-guide/nav.adoc
 start_page: user-guide:index.adoc
-title: Devfile User Guide
-version: master
+title: Devfile User Guide v.2.0
+version: '2.0'

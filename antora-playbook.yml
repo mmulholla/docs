@@ -14,8 +14,16 @@ content:
   sources: 
   - branches: HEAD
     edit_url: 'https://github.com/devfile/docs/edit/master/{path}'
-    start_path: docs
+    start_path: docs/v20
     url: ./
+  - branches: HEAD
+    edit_url: 'https://github.com/devfile/docs/edit/master/{path}'
+    start_path: docs/v21
+    url: ./  
+  - branches: HEAD
+    edit_url: 'https://github.com/devfile/docs/edit/master/{path}'
+    start_path: docs/v22
+    url: ./  
 output:
   destinations:
     - clean: true
@@ -31,7 +39,7 @@ site:
 ui: 
   bundle:
     snapshot: true
-    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
+    url: /Users/martinmulholland/devfile/antora-ui-default/build/ui-bundle.zip
   supplemental_files: ./supplemental-ui
 urls:
   # html_extension_style: indexify
