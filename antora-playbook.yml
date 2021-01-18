@@ -14,6 +14,10 @@ content:
   - branches: HEAD
     start_path: docs
     url: ./
+  - branches: ~
+    tags: [v2.0.0]
+    start_path: docs
+    url: ./
 output:
   destinations:
     - clean: true
