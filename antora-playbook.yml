@@ -12,7 +12,6 @@ asciidoc:
 content:
   sources: 
   - branches: HEAD
-    edit_url: 'https://github.com/devfile/docs/edit/master/{path}'
     start_path: docs
     url: ./
 output:

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="main.css">
+    <meta charset="UTF-8">
+    <title>Devfile 2.0 Schema Documentation</title>                                             
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></head>
+<body>
+<div class="container">
+    <div  class="panel panel-definition">
+        <div class="panel-body">
+                
+        </div>
+    </div></div>
+<script>
+    $('dt').each(function() {
+        $(this).next().children('div.json-inner-schema').hide();
+    });		
+    $('dt').click(function() {
+        $(this).next().children('div.json-inner-schema').toggle();
+    });
+</script>
+</body>
+</html>
