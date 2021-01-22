@@ -5,17 +5,18 @@ asciidoc:
     che-prod: Eclipse Che
     che-prod-short: Che
     che-prod-id-short: che
-    che-prod-ver: 7.20
+    che-prod-ver: 7.30
     prod: Devfile
     prod-short: Devfile
     prod-id-short: devfile
-    prod-ver: 2.0
 content:
   sources: 
   - branches: HEAD
-    edit_url: 'https://github.com/devfile/docs/edit/master/{path}'
     start_path: docs
     url: ./
+  - branches: [v2.*]
+    start_path: docs
+    url: https://github.com/devfile/docs
 output:
   destinations:
     - clean: true
